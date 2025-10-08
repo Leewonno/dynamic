@@ -1,0 +1,1 @@
+export { HomeDynamicText } from './home'

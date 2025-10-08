@@ -1,0 +1,11 @@
+.container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory; /* 수직 스냅 스크롤 */
+  scroll-behavior: smooth; /* 부드러운 이동 */
+}
+
+.section {
+  height: 100vh;
+  scroll-snap-align: start; /* 섹션이 시작점에 맞게 스냅 */
+}

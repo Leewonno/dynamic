@@ -1,0 +1,40 @@
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 45 920;
+	font-style: normal;
+	font-display: swap;
+	src: url('../assets/fonts/PretendardVariable.woff2') format('woff2-variations');
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  /* color: var(--foreground); */
+  /* background: var(--background); */
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Pretendard', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
