@@ -10,12 +10,14 @@ const Widget = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 `
 
 export function HomeNavigationWidget() {
   return (
     <Widget>
       <LinkButton href="/drive">드라이브</LinkButton>
+      <LinkButton href="/worldcup">이상형월드컵</LinkButton>
     </Widget>
   )
 }
