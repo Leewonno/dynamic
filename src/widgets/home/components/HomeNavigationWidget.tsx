@@ -18,6 +18,7 @@ export function HomeNavigationWidget() {
     <Widget>
       <LinkButton href="/drive">드라이브</LinkButton>
       <LinkButton href="/worldcup">이상형월드컵</LinkButton>
+      <LinkButton href="/audio">오디오</LinkButton>
     </Widget>
   )
 }
