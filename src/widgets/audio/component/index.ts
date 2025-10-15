@@ -1,1 +1,1 @@
-export { AudioSourceWidget } from './AudioSourceWidget'
+export { AudioSpectrumTopDownWidget } from './AudioSpectrumTopDownWidget'

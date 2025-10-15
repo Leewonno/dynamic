@@ -1,9 +1,9 @@
-import { AudioSourceWidget } from "@/widgets";
+import { AudioSpectrumTopDownWidget } from "@/widgets";
 
 export default function Audio() {
   return (
     <>
-      <AudioSourceWidget />
+      <AudioSpectrumTopDownWidget />
     </>
   );
 }

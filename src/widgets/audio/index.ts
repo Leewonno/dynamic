@@ -1,1 +1,1 @@
-export { AudioSourceWidget } from './component'
+export { AudioSpectrumTopDownWidget } from './component'
