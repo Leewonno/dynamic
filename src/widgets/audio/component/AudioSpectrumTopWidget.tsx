@@ -13,7 +13,7 @@ type ComponentType = {
   isPlay: boolean;
 }
 
-export function AudioSpectrumTopDownWidget({ audioCtxRef, animationRef, analyserRef, isPlay }: ComponentType) {
+export function AudioSpectrumTopWidget({ audioCtxRef, animationRef, analyserRef, isPlay }: ComponentType) {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
 
   const draw = () => {
@@ -47,7 +47,7 @@ export function AudioSpectrumTopDownWidget({ audioCtxRef, animationRef, analyser
         gradient.addColorStop(0, "#00f6ff");
         gradient.addColorStop(1, "#00a2ff");
         ctx.fillStyle = gradient;
-        ctx.fillRect(x - 210, HEIGHT / 2, barWidth, barHeight / 4);
+        // ctx.fillRect(x - 210, HEIGHT / 2, barWidth, barHeight / 4);
         ctx.fillRect(x - 210, HEIGHT / 2, barWidth, -(barHeight / 4));
         x += barWidth + 1;
       }

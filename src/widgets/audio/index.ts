@@ -1,3 +1,5 @@
 export { AudioSpectrumTopDownWidget } from './component'
+export { AudioSpectrumTopWidget } from './component'
 export { AudioSpectrumCircleWidget } from './component'
 export { AudioSpectrumAnalogWidget } from './component'
+export { AudioControlWidget } from './component'
