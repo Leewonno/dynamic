@@ -8,3 +8,5 @@ export { DriveCarWidget } from './drive'
 
 // Audio
 export { AudioSpectrumTopDownWidget } from './audio'
+export { AudioSpectrumCircleWidget } from './audio'
+export { AudioSpectrumAnalogWidget } from './audio'
